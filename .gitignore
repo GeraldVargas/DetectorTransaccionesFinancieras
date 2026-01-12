@@ -1,11 +1,42 @@
+# Python
 __pycache__/
-*.pyc
-.env
-venv/
+*.py[cod]
+*$py.class
+*.so
+.Python
 env/
+venv/
+.env
+.venv
+
+# Datos y modelos
 *.pkl
 *.h5
 *.hdf5
+*.joblib
+*.model
 data/entrenamiento_mejorado/
+data/creditcard/
+data/paysim/
 modelos/
+datasets/
+*.csv
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*.sublime-*
+
+# Sistema
 .DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log
+logs/
+
+# Streamlit
+.streamlit/
