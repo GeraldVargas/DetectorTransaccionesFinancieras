@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+.env
+venv/
+env/
+*.pkl
+*.h5
+*.hdf5
+data/entrenamiento_mejorado/
+modelos/
+.DS_Store
